@@ -62,6 +62,9 @@ Redirect To The Topics List After Creating A New Topic
 Make The Topic Title A Link
   http://docs.railsbridge.org/intro-to-rails/make_the_topic_title_a_link
   http://zh-tw.railsbridge.org/%E5%88%9D%E6%8E%A2-rails/%E6%8A%8A_topic_%E6%A8%99%E9%A1%8C%E8%AE%8A%E6%88%90%E8%B6%85%E9%80%A3%E7%B5%90?back=%E6%96%B0%E5%A2%9E_topic_%E4%B9%8B%E5%BE%8C%E8%BD%89%E5%9B%9E_topics_%E5%88%97%E8%A1%A8
-  
+
 Clean Up Links On The Topics List
+  http://docs.railsbridge.org/intro-to-rails/clean_up_links_on_the_topics_list
+  http://zh-tw.railsbridge.org/%E5%88%9D%E6%8E%A2-rails/%E6%B8%85%E7%90%86_topics_%E5%88%97%E8%A1%A8%E4%B8%8D%E9%9C%80%E8%A6%81%E7%9A%84%E9%80%A3%E7%B5%90?back=%E6%8A%8A_topic_%E6%A8%99%E9%A1%8C%E8%AE%8A%E6%88%90%E8%B6%85%E9%80%A3%E7%B5%90
+
 Credits And Next Steps
