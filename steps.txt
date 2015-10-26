@@ -68,3 +68,46 @@ Clean Up Links On The Topics List
   http://zh-tw.railsbridge.org/%E5%88%9D%E6%8E%A2-rails/%E6%B8%85%E7%90%86_topics_%E5%88%97%E8%A1%A8%E4%B8%8D%E9%9C%80%E8%A6%81%E7%9A%84%E9%80%A3%E7%B5%90?back=%E6%8A%8A_topic_%E6%A8%99%E9%A1%8C%E8%AE%8A%E6%88%90%E8%B6%85%E9%80%A3%E7%B5%90
 
 Credits And Next Steps
+  http://docs.railsbridge.org/intro-to-rails/credits_and_next_steps
+  http://zh-tw.railsbridge.org/%E5%88%9D%E6%8E%A2-rails/%E5%8A%A0%E5%88%86%E9%A1%8C_%26_%E4%B8%8B%E4%B8%80%E6%AD%A5?back=%E6%B8%85%E7%90%86_topics_%E5%88%97%E8%A1%A8%E4%B8%8D%E9%9C%80%E8%A6%81%E7%9A%84%E9%80%A3%E7%B5%90
+
+
+  如果你完成了 Suggestotron 而還剩下一些時間，你可以試試看這些：
+
+  1. 加一個「扣分」按鈕，做的事跟加分按鈕相反。
+  
+  2. 根據投票分數排序 topics。
+  
+  3. 新增一個 'about' 頁面，並將連結放在 topics 列表的最下方
+     記得也要在 About 頁面上放置回 Topics 列表的連結，以免使用者迷路。
+  
+  如果你這次上課剩下很多時間，可以試試看：
+  4. 限制使用者只能投票一次：在投票記錄加一個 user_id,
+     然後限制每個使用者對每一篇 topic
+     都只能投票一次。不過首先要定義什麼是「使用者（user）」。
+     你可以請助教來跟大家講一下什麼是 Devise，它可以很輕易就在 Rails 程式裡面加入使用者認證系統。
+  Users should be able to give a post a 'negative' vote instead of a positive one. How might   you represent that in this system? （[譯註]：似乎跟第一題重複）
+
+
+  If you got all the way through Suggestotron with some time to spare,
+  here's some extra stuff you can try:
+  
+  1. Add a downvote button that does the opposite of what the upvote button does
+  
+  2. Create upvote and downvote methods in the Topic model and use those in the topics
+     controller instead directly modifying the topics votes
+  
+  3. Sort topics by their number of votes
+  
+  4. Add an 'about' page, linked from the bottom of the Suggestotron topics list.
+     Link back to the Topics list from the About page so users don't get stranded.
+  
+  If your class has a lot of time left over:
+  
+  5. Users should be allowed to vote only once:
+     give votes a user_id and allow a user to have voted on each topic only once.
+     But wait, what is a 'user' in our system? Get a volunteer to introduce
+     everyone to Devise, a simple way to add authentication to a Rails application.
+  
+     Users should be able to give a post a 'negative' vote instead of a positive one.
+     How might you represent that in this system?
